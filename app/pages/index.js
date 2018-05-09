@@ -6,7 +6,7 @@ import AlbumCardList from './album-card-list'
 const paneWidth = 240;
 const paneStyle = {
   color: "white",
-  backgroundColor: "black",
+  backgroundColor: "#263238",
   width: paneWidth,
   height: "100%"
 };
@@ -30,7 +30,7 @@ const data = [
 
 export default () => {
   return (
-    <div style={{width:"100vw",height:"100vh"}}>
+    <div style={{width:"100vw",height:"100vh",backgroundColor:"#455A64"}}>
       <button>Add</button>
       <SortablePane direction="horizontal" margin={20}>
         <Pane id={0} key={0} width={240} height="100%" style={paneStyle}>
